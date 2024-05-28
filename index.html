@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe Page</title>
+</head>
+<body>
+    <iframe src="https://hubby-esim.web.app/#/iframe?background_color=fff8ea" width="100%" height="100%" style="border:none;"></iframe>
+
+    <script>
+        // Allow popups from the iframe
+        document.querySelector('iframe').sandbox = "allow-popups allow-same-origin allow-scripts";
+    </script>
+</body>
+</html>
